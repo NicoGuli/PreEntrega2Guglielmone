@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,600;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    text-align: center;
+}
+/*-------HEADER-------*/
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: aliceblue;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+}
+
+header nav ul{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: end;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin: 10px 15px 10px 15px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: 148c9f;
+}
+/*-------Galeria----------*/
+
+.row .column img{
+    width: 100%;
+    margin-top: 5px;
+}
+.row{
+    display: flex;
+    padding: 5px;
+
+}
+.row .column{
+    flex: 25%;
+    padding: 5px;
+}
+
+
+
+
+/*-------MAIN----------*/
+.hero{
+    width: 100%;
+    height: 80vh;
+    color: aliceblue;
+    text-align: center;
+    background-image: url("../img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.hero h2{
+    font-size: 60px;
+    border: 2px solid white;
+    display: inline-block;
+    padding: 20px;
+}
+
+.hero p{
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+
+.hero a{
+    text-decoration: none;
+    color: aliceblue;
+    background-color: black;
+    padding: 10px;
+}
+
+.productos{
+    font-size: medium;
+    background-image: url(../img/produc.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+.productos div{
+    width: 250px;
+    height: 400px;
+    text-align: center;
+    margin: 20px;
+    display: inline-block;
+}
+.productos h2{
+    color: black;
+    margin: 30px;
+    text-align: center;
+    font-size: 45px;
+    padding: 5%;
+    margin-top: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: antiquewhite;
+    border-bottom: #efefef;
+}
+
+.productos div a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.productos div img{
+    width: 250px;
+    height: 250px;
+}
+
+
+
+/*-------FOOTER---------*/
+
+.pie-pagina{
+    width: 100%;
+    background-color: #0a141d;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box h2{
+color:#fff ;
+margin-bottom: 25px;
+font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 240px;
+}
+
+.pie-pagina .grupo-1 .box .redes-sociales img{
+    width: 30px;
+    height: 30px;
+}
+.pie-pagina .grupo-2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
