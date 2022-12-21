@@ -19,7 +19,7 @@ header{
 header h1 {
     font-size: 3rem;
     font-family: 'Poppins', sans-serif;
-    font-weight: 500;
+    font-weight: 700;
     color: aliceblue;
 }
 
@@ -101,6 +101,11 @@ header nav ul li a{
     background-position: center;
     background-attachment: fixed;
     
+}
+.productos .items{
+    justify-content: center;
+    align-items: center;
+    display:inline-flexbox;
 }
 .productos div{
     width: 250px;
@@ -184,4 +189,12 @@ font-size: 20px;
 }
 .pie-pagina .grupo-2 small{
     font-size: 15px;
+}
+
+/*---------------MEDIAS QUERYS------------------*/
+
+@media screen and (max-width:670px){
+    header{
+        flex-direction: column;
+    }
 }
