@@ -102,11 +102,7 @@ header nav ul li a{
     background-attachment: fixed;
     
 }
-.productos .items{
-    justify-content: center;
-    align-items: center;
-    display:inline-flexbox;
-}
+
 .productos div{
     width: 250px;
     height: 400px;
@@ -193,8 +189,40 @@ font-size: 20px;
 
 /*---------------MEDIAS QUERYS------------------*/
 
+@media screen and (max-width:690px) {
+    .hero h2{
+        font-size: 35px;
+        padding: 10px;
+    
+}
+    .hero p{
+        font-size: 17px;
+    }
+}
+
 @media screen and (max-width:670px){
     header{
         flex-direction: column;
+    }
+}
+
+@media screen and (max-width:600px){
+    .pie-pagina .grupo-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    }
+
+}
+
+@media screen and (max-width:545px){
+    header nav ul{
+        flex-direction: column;
+        align-items:center ;
+        width: 100%;
+    }
+    header nav ul li{
+        margin: 3px;
     }
 }
