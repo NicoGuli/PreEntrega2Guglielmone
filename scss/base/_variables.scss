@@ -1,0 +1,19 @@
+
+$colorprincipal: aliceblue; 
+$colorfondo: #0a141d;
+
+
+$colores:
+aliceblue,
+black,
+#efefef,
+white,
+#2fb4cc,
+orange;
+
+
+@mixin good ($flex, $justify, $aling){
+    display: $flex;
+    justify-content: $justify;
+    align-items: $aling;
+}

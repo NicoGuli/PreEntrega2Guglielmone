@@ -1,0 +1,29 @@
+/* -----------HEADER-----------*/
+
+header{
+        background-color: $colorfondo;
+        @include good (flex, space-between, center);
+    h1{
+        font-size: 3rem;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        color: $colorprincipal;
+    }
+    nav{
+        display: flex;
+        align-items: center;
+        ul{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            display: flex;
+            align-items: end;
+            li{
+                display: inline-block;
+                margin: 10px 15px 10px 15px;
+                a{
+                    text-decoration: none;
+                    color: $colorprincipal;
+                }
+            }
+        }
+    }
+}

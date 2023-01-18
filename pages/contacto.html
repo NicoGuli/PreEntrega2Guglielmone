@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <script src="https://kit.fontawesome.com/38b4b2fb5e.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header class="main">
@@ -14,72 +15,33 @@
             <ul>
                 <li><a href="../index.html">Inicio</a></li>
                 <li><a href="./productos.html">Productos</a></li>
-                <li><a href="./acercaDeNosotros.html">Acerca de Nosotros</a></li>
+                <li><a href="./servicios.html">Servicios</a></li>
                 <li><a href="./contacto.html">Contacto</a></li>
-                <li><a href="./servicios.html">Galeria</a></li>
+                <li><a href="./galeria.html">Galeria</a></li>
             </ul>
         </nav>
     </header>    
         
         <main>
-            <section>
-                <form action="" method="" enctype="">
-                    <div>
-                        <label for="nombre">Nombre</label>
-                        <input type="text" id="nombre">
-                    </div>
-                    <br>
-                    <div>
-                        <label for="apellido">Apellido</label>
-                        <input type="text" id="apellido">   
-                    </div>
-                    <br>
-                    <div>
-                        <label for="correo">Correo</label>
-                        <input type="email" id="correo">
-                    </div>
-                    <br>
-                    <div>
-                        <label for="contrasena">Contraseña</label>
-                        <input type="password">
-                    </div>
-                    <br>
-                    <div>
-                        <h3>Genero</h3>
-                        <div>
-                            <label for="masculino">Masculino</label>
-                            <input type="radio"name="genero">
-                            <label for="femenino">Femenino</label>
-                            <input type="radio" name="genero">
-                            <label for="otro">Otro</label>
-                            <input type="radio" name="genero">
-                        </div>
-                    </div>
-                    <br>
-                    <div>
-                        <h3>Seleccionar Pais</h3>
-                        <select name="select" id="">Pais
-                            <option value="">Argentina</option>
-                            <option value="">Brasil</option>
-                            <option value="">Uruguay</option>
-                            <option value="">Colombia</option>
-                        </select>
-                    </div>
-                    <br>
-                    <div>
-                        <h3>Escribenos un comentario</h3>
-                        <textarea name="" id="" cols="30" rows="10"></textarea>
-
-                    </div>
-                    <br>
-                    <div>
-                        <input type="submit">
-                        <input type="reset">
-                    </div>
+            <div class="container-form">
+                <div class="info-form">
+                    <h2>Contáctanos</h2>
+                    <p>Escribenos tu mensaje o duda para que podamos contestarte a la brevedad, esperamos tu comentario.
+                        Glow Bebidas
+                    </p>
+                    <a href="#"><i class="fa fa-phone"></i> +54 3496 544675</a>
+                    <a href="#"><i class="fa fa-envelope"></i> glowcontacto@gmail.com</a>
+                    <a href="#"><i class="fa fa-map-marked"></i> Rafaela, Argentina</a>
+                </div>
+                <form action="#" autocomplete="off">
+                    <input type="text" name="nombre" placeholder="Tu Nombre" class="campo">
+                    <input type="emal" name="email" placeholder="Tu Email" class="campo">
+                    <textarea name="mensaje" placeholder="Tu Mensaje..."></textarea>
+                    <input type="submit" name="enviar" value="Enviar Mensaje" class="btn-enviar">
                 </form>
-            </section>
-
+            </div>
         </main>
+        
         <footer class="pie-pagina">
             <div class="grupo-1">
                 <div class="box">
